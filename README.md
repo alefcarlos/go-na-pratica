@@ -4,12 +4,12 @@
 * Estrutura de pastas
 * Visual Code + Plugin Go
 * Dependências
-* [Meu primeiro programa](meu-primeiro-programa/README.md)
-* [As variáveis](variaveis/README.md)
+* [Meu primeiro programa](meu-primeiro-programa)
+* [As variáveis](variaveis)
 * Funções
 * Condicionais
 * Meus pacotes
-* [Minhas Structs](minhas-structs/README.md)
+* [Minhas Structs](minhas-structs)
 * Loops
 * Maps
 * Conversões JSON
