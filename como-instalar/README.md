@@ -41,4 +41,4 @@ O resultado esperado é:
 Teste de instalação do go!
 ```
 
-O próximo passo é: [Workspaces](workspaces)
+O próximo passo é: [Workspaces](/workspaces)
