@@ -6,6 +6,10 @@
 
 Deixaremos aqui conteúdos que abrangem desde a instalação do Go em diversos SOs até criação de WebApis. Deixaremos também nossa experiência com os diversas bibliotecas disponíveis.
 
+## Iniciando passo-a-passo
+
+É necessário clonar esse projeto para executar os exemplos, caso você não tenha instalado o Go ou nem criado seu workspace, comece pelo item [Como instalar](como-instalar)
+
 ## Conteúdo
 
 * [Como instalar](como-instalar)

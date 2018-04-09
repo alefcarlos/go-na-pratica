@@ -31,7 +31,7 @@ Execute o arquivo main.go.
 > Para excutar uma aplicação utilize o comando `go run <nomearquivo>.go`
 
 ```cmd
-cd alefcarlos/como-instalar
+cd go-na-pratica/como-instalar
 go run main.go
 ```
 
