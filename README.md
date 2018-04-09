@@ -14,8 +14,7 @@ Deixaremos aqui conteúdos que abrangem desde a instalação do Go em diversos S
 
 * [Como instalar](como-instalar)
 * [Workspaces](workspaces)
-* Visual Code + Plugin Go
-* Dependências
+* [Visual Code + Plugin Go](visual-code)
 * [Meu primeiro programa](meu-primeiro-programa)
 * [As variáveis](variaveis)
 * Funções
