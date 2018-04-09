@@ -22,4 +22,4 @@ Ao salvar o arquivo, você notará que o `;` sumiu automaticamente, esse é um d
 
 Execute a aplicação utilizando o comando `go run main.go`, o resultado espereado é `Testando com Visual Code + Plugin!`.
 
-Próximo passo: [Meu Primeiro Programada](/meu-primeiro-programa)
+Próximo passo: [Meu Primeiro Programa](/meu-primeiro-programa)
