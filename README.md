@@ -25,6 +25,7 @@ Deixaremos aqui conteúdos que abrangem desde a instalação do Go em diversos S
 * Maps
 * Conversões JSON
 * Testes
+* Integração Docker
 
 ## Contribuidores
 
