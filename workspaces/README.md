@@ -4,7 +4,7 @@
 
 Em nosso `GOPATH` deve conter 3 pastas:
 
-> Se você ainda não sabe o que é `GOPATH` [leia aqui](como-instalar)
+> Se você ainda não sabe o que é `GOPATH` [leia aqui](/como-instalar)
 
 * src contém nossos códigos fontes
 * pkg conté os códigos das bibliotecas
