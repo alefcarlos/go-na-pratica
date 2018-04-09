@@ -9,6 +9,15 @@ Após relizar o download, instalar normalmente. Utilizar a instalação padrão.
 
 > O instalador irá instalar o Go na pasta `C:\Go`
 
+## Mac OS X
+
+1. Acessar URL de download [aqui](https://golang.org/dl/) (Pode-se instalar também pelo [homebrew](http://brewformulas.org/Go))
+2. Clicar em Apple MacOS
+
+Após relizar o download, instalar normalmente. Utilizar a instalação padrão.
+
+> O instalador irá instalar o Go na pasta `/usr/local/go`
+
 # GOPATH e GOROOT
 
 `GOROOT` é o caminho da pasta de instalação do Go.
