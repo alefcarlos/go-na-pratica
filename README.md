@@ -8,8 +8,8 @@ Deixaremos aqui conteúdos que abrangem desde a instalação do Go em diversos S
 
 ## Conteúdo
 
-* Como instalar
-* Estrutura de pastas
+* [Como instalar](como-instalar)
+* [Workspaces](workspaces)
 * Visual Code + Plugin Go
 * Dependências
 * [Meu primeiro programa](meu-primeiro-programa)
