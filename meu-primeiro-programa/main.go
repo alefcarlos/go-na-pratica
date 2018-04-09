@@ -6,7 +6,7 @@ go run main.go
 */
 package main
 
-//Ao utilizarmos a função Print do pacote fmt ele é automáticamente importado
+//Ao utilizarmos a função Print do pacote fmt ele é automaticamente importado
 import (
 	"fmt"
 )

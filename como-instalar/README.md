@@ -13,7 +13,7 @@ Após relizar o download, instalar normalmente. Utilizar a instalação padrão.
 
 `GOROOT` é o caminho da pasta de instalação do Go.
 
-> O instalador  automáticamente criará essa variável de ambiente. Por padrão o valor é `C:\Go`
+> O instalador  automaticamente criará essa variável de ambiente. Por padrão o valor é `C:\Go`
 
 `GOPATH` é o caminho de onde fica seu workspace, ou seja, onde os seus códigos fontes e bibliotecas estão localizadas. Por padrão é `%USERPROFILE%\go`.
 
