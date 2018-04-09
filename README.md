@@ -31,3 +31,4 @@ Deixaremos aqui conteúdos que abrangem desde a instalação do Go em diversos S
 
 * [Alef](https://github.com/alefcarlos/)
 * [Pedro Savelis](https://github.com/psavelis)
+* [Carlos Eduardo](https://github.com/cadums01)
