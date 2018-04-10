@@ -33,16 +33,16 @@ type Pessoa struct {
 func main() {
 
 	/*Aqui vamos criar nossas structs
-	Podemos instânciar já passando os valores dos campos na ordem
+	Podemos inicializar já passando os valores dos campos na ordem
 	*/
 	pessoa1 := Pessoa{"Alef", 25}
 
-	//Podemos instânciar e depois setar os valores dos campos
+	//Podemos inicializar e depois setar os valores dos campos
 	pessoa2 := Pessoa{}
 	pessoa2.Idade = 9
 	pessoa2.Nome = "Pedro"
 
-	//Podemos instânciar passando os nomes dos campos
+	//Podemos inicializar passando os nomes dos campos
 	pessoa3 := Pessoa{Nome: "Karol", Idade: 18}
 
 	/*Essa instrução irá escrever na tela, mas irá pular linha

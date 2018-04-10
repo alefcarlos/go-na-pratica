@@ -15,7 +15,7 @@ func main() {
 
 	//As variáveis em go quando instânciadas, assumem os valores default, nunca nil
 
-	//Instânciar variável, sem inicializá-la explicitamente
+	//Criar uma variável, sem inicializá-la explicitamente
 	var nome string // é inicializado com valor ""
 	var idade int   // é inicializado com o valor 0
 	var falso bool  // é inicilizado com valor false
@@ -24,7 +24,13 @@ func main() {
 	fmt.Println(idade)
 	fmt.Println(falso)
 
-	//Instânciar variável já inicializada
+	/*Criar uma variável já inicializada
+	var variavel int = 1
+	Um jeito mais simples de se escrever é utilizando a forma abaixo
+	variavel := valor
+
+	O símbolo := cria e inicializa uma variável
+	*/
 	nomeI := "alef"
 	idadeI := 1
 	verdadeiro := true

@@ -54,7 +54,7 @@ func (*Pessoa) Contar(numero int) string {
 func main() {
 
 	/*Aqui vamos criar nossas structs
-	Podemos instânciar já passando os valores dos campos na ordem
+	Podemos inicializar já passando os valores dos campos na ordem
 	*/
 	pessoa1 := Pessoa{"Alef", 25}
 
