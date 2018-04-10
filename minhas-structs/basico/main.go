@@ -10,17 +10,16 @@ import "fmt"
 
 /*
  O golang não tem paradgima definido, mas também não é orientado a objeto, então não temos o conceito de Classes aqui.
- Temos o que chamado de Struct, que nada mais é do que uma coleção de campos.
+ Temos o que chamados de Struct, que nada mais é do que uma coleção de campos.
 
- criado uma struct assim:
+ criamos uma struct assim:
 
-
- type <Name> struct{
+ type <Nome> struct{
 	 <campo> <tipo>
  }
 
- Toda struct que comece coma letra maiúscula deve ter um comentário no padrão:
- <Name> Essa struct é isso..
+ Toda struct que comece coma letra maiúscula deve ter um comentário utilizando o padrão:
+ <Nome> Essa struct é isso..
 */
 
 //Pessoa - Modelo de pessoa
