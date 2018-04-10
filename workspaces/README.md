@@ -26,4 +26,4 @@ Primeiramente temos uma pasta com o nome do repositório utilizado, por exemplo,
 
 Caso você não queira utiliza o caminho padrão de workspace, geralmente em `C:\Users\seu-usuario\go`, você pode alterar o valor da variável de ambiente `GOPATH`
 
-Próximo passo é: [Visual Code + Plugin Go](visual-code)
+Próximo passo é: [Visual Code + Plugin Go](/visual-code)
