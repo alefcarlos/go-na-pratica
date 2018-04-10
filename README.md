@@ -17,9 +17,9 @@ Deixaremos aqui conteúdos que abrangem desde a instalação do Go em diversos S
 * [Visual Code + Plugin Go](visual-code)
 * [Meu primeiro programa](meu-primeiro-programa)
 * [As variáveis](variaveis)
-* Funções
+* [Funções](funcoes)
 * Condicionais
-* Meus pacotes
+* [Meus pacotes](meus-pacotes)
 * [Minhas Structs](minhas-structs)
 * Loops
 * Maps
