@@ -35,18 +35,29 @@ type Pessoa struct {
 	Idade int
 }
 
-//Falar método que retorna
+//Falar método que retorna um texto "Eu sei falar"
 func (*Pessoa) Falar() string {
 	return "Eu sei falar"
 }
 
-//Andar método
+//Andar método que retorna um texto "Eu sei andar"
 func (*Pessoa) Andar() string {
 	return "Eu sei andar"
 }
 
-//Contar -
+//Contar método que retorna um texto formatado
 func (*Pessoa) Contar(numero int) string {
+	/* A função fmt.Sprintf permite fazer formatação
+	de texto
+
+	o parâmetro %d permite renderizar um número
+
+	É possível passar uma série de parâmetro como no exemplo:
+	fmt.Sprintf("Eu sei contar, você me passou %d e eu tenho %d", numero, idade)
+
+	Os parâmetro seguem na mesma ordem que vão aparecendo na string
+	*/
+
 	return fmt.Sprintf("Eu sei contar, você me passou %d", numero)
 }
 
@@ -54,7 +65,7 @@ func (*Pessoa) Contar(numero int) string {
 func main() {
 
 	/*Aqui vamos criar nossas structs
-	Podemos instânciar já passando os valores dos campos na ordem
+	Podemos inicializar já passando os valores dos campos na ordem
 	*/
 	pessoa1 := Pessoa{"Alef", 25}
 
