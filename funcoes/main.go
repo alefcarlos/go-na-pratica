@@ -50,7 +50,7 @@ Funções são blocos de códigos que nos permite manipular parâmetros recebido
 São bastante usadas para separar e reutilizar blocos de códigos
 
 Por exemplo, eu tenho uma função chamado soma, quando eu quiser somar dois números
-eu posso sempre chamar esse método passando os parâmetros
+eu posso sempre chamar essa essa mesma função passando os parâmetros
 
 uma função PRIVADA é definiada assim:
 
