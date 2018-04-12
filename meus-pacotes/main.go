@@ -39,7 +39,7 @@ func main() {
 	*/
 	// animal := modelo.Animal{} //descomente essa linha para ver o erro
 
-	/*A linh abaixo também não irá compilar, pois tem o erro: cannot refer to unexported name modelo.animal, ou seja,
+	/*A linha abaixo também não irá compilar, pois tem o erro: cannot refer to unexported name modelo.animal, ou seja,
 	não conseguimos utilizar uma struct que não seja publica fora do mesmo pacote
 	*/
 	//animal2 := modelo.animal{}//descomente essa linha para ver o erro
