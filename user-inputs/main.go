@@ -82,5 +82,20 @@ func main() {
 		panic(err)
 	}
 
-	fmt.Printf("Seu nome é %s e você tem %d anos.", nome, idade)
+	fmt.Printf("Seu nome é %s e você tem %d anos. \n", nome, idade)
+
+	/*Podemos utilizar a função Scan para ler várias informações separadas por espaço,
+	por exemplo 1 2 3 4 5
+
+	A função Scan pode receber vários parâmetro, cada parâmetro representa uma informação lida.
+	*/
+	fmt.Println("Digte 3 números se parados por espaço")
+
+	var numero1, numero2, numero3 int
+	n, err := fmt.Scan(&numero1, &numero2, &numero3)
+	if err != nil {
+		panic(err)
+	}
+
+	fmt.Printf("Você digitou %d número: %d, %d e %d", n, numero1, numero2, numero3)
 }
