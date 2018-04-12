@@ -66,6 +66,13 @@ func main() {
 		return Fscan(os.Stdin, a...)
 	}
 
+	Parâmetros:
+	a ponteiros a receberem valores
+
+	Os ... servem para indicar que podem ser passados vários parâmetros para a função
+
+	Retornos:
+
 	n é o número de informações que a função conseguiu ler(cada espaço é uma informação)
 	err é a informação do erro, caso occora.
 
