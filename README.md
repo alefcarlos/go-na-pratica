@@ -19,6 +19,7 @@ Deixaremos aqui conteúdos que abrangem desde a instalação do Go em diversos S
 * [As variáveis](variaveis)
 * [Funções](funcoes)
 * Condicionais
+* [User inputs](user-inputs)
 * [Meus pacotes](meus-pacotes)
 * [Minhas Structs](minhas-structs)
 * Loops
