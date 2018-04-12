@@ -44,16 +44,13 @@ func main() {
 	*/
 	//animal2 := modelo.animal{}//descomente essa linha para ver o erro
 
-	/*
-		Pode utilizar a mesma lógica para funções públicas, ou seja,
-		funções de outros pacotes que começam com a letra maíscula
+	/*Podemos utilizar a mesma lógica para funções públicas, ou seja,
+	funções de outros pacotes que comecem com a letra maíscula
 	*/
 	var idade = funcao.CalculaIdade(1993)
 	fmt.Printf("idade é igual: %d", idade)
 
-	/*
-		Se tentarmos utilizar a função funcao.soma teremos o erro cannot refer to unexported name funcao.soma
-	*/
+	/*Se tentarmos utilizar a função funcao.soma teremos o erro: cannot refer to unexported name funcao.soma*/
 	// soma := funcao.soma(1, 2) //descomente essa linha para ver o erro
 
 }
