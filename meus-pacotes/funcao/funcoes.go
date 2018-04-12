@@ -8,7 +8,7 @@ Um pacote serve para agruparmos uma série de arquivos em comum
 Por exemplo, criamos aqui um pacote chamado modelo, nesse pacote estarão agrupados todos
 os arquivos de struct
 */
-package funcap
+package funcao
 
 import "time"
 
@@ -17,7 +17,7 @@ Funções são blocos de códigos que nos permite manipular parâmetros recebido
 São bastante usadas para separar e reutilizar blocos de códigos
 
 Por exemplo, eu tenho uma função chamado soma, quando eu quiser somar dois números
-eu posso sempre chamar esse método passando os parâmetros
+eu posso sempre chamar essa essa mesma função passando os parâmetros
 
 uma função PÚBLICA é definiada assim:
 
@@ -43,20 +43,16 @@ func CalculaIdade(anoNascimento int) int {
 }
 
 /*
-Funções são blocos de códigos que nos permite manipular parâmetros recebidos
-São bastante usadas para separar e reutilizar blocos de códigos
-
-Por exemplo, eu tenho uma função chamado soma, quando eu quiser somar dois números
-eu posso sempre chamar esse método passando os parâmetros
-
-uma função PRIVADA é definiada assim:
+Uma função PRIVADA é definiada assim:
 
 func <nome>(<parâmetros>) <retorno>{
 	corpo da função
 }
 
-o nome da função PRIVADA começa com letra minúscula
-uma função privada não pode ser utilizada por pacotes externos
+Uma função privada é definida com a primeira letra mínuscula e tem característica
+de ser usada para auxiliar alguma outra função.
+
+Uma função privada não pode ser utilizada por pacotes externos
 
 Uma caracterisca legal aqui é que os dois parâmetros da função são do tipo inteiro, então
 podemos utilizar essa maneira de escrita:
