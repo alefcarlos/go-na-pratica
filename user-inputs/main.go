@@ -84,10 +84,9 @@ func main() {
 
 	fmt.Printf("Seu nome é %s e você tem %d anos. \n", nome, idade)
 
-	/*Podemos utilizar a função Scan para ler várias informações separadas por espaço,
-	por exemplo 1 2 3 4 5
+	/*A função Scan pode receber vários parâmetros, cada parâmetro representa uma informação lida.
 
-	A função Scan pode receber vários parâmetro, cada parâmetro representa uma informação lida.
+	Um exemplo é a sequência de números 1 2 3 4 5
 	*/
 	fmt.Println("Digte 3 números se parados por espaço")
 
