@@ -33,7 +33,7 @@ Essa função lê os inputs e tenta fazer a conversão para os tipo das variáve
 
 > Ponteiro é o endereço de memória de uma determinada variável. Para obtermos o ponteiro de uma variável precisamos colocar o `&` na frente da mesma
 
-### Exemplo de usos
+### Exemplos de uso
 
 Única informação
 
