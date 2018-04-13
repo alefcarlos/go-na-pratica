@@ -76,7 +76,12 @@ Vou bem... E você ?
 
 Utilizamos essa função quando queremos facilitar a escrita na tela utilizando formatadores de tipos. 
 
->Acesse [esse link](https://gobyexample.com/string-formatting)] para ver uma lista com vários exemplos
+Formatadores comuns:
+
+* `%s` utilizada para strings
+* `%d` utilizado para inteiros
+
+>Acesse [esse link](https://gobyexample.com/string-formatting) para ver uma lista com vários exemplos
 
 >**DICA**: Para pular linha adicione `\n`.
 
