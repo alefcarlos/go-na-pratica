@@ -10,17 +10,17 @@ Geralmente inicializamos um arquivo simples com uma simples instrução: `escrev
 
 ## O que é um software/programa ?
 
-> Software é uma sequência de instruções escritas para serem interpretadas por um computador com o objetivo de executar tarefas específicas. [Fonte](https://www.significados.com.br/software/)
+> É uma coleção de instruções que descrevem uma tarefa a ser realizada por um computador *(LAUREANO, 2005, p. 4)*.
 
 ## O que vamos aprender ?
 
-Aprenderemos as funções que escrevam informações no console da aplicação.
+Aprenderemos as funções que escrevem informações no console da aplicação.
 
 ## `fmt.Print`
 
 Utilizamos essa função quando queremos apresentar alguma informação simples no console. 
 
-> Caso seja utilizada alguma instrução que escreva algo na tela, será escrito logo a pós o último caractere.
+> Caso a próxima instrução seja alguma que escreva algo na tela, o conteúdo aparecerá logo após o último caractere.
 
 ### Assinatura da função
 
@@ -74,6 +74,12 @@ Vou bem... E você ?
 
 ## `fmt.Printf`
 
+Utilizamos essa função quando queremos facilitar a escrita na tela utilizando formatadores de tipos. 
+
+>Acesse [esse link](https://gobyexample.com/string-formatting)] para ver uma lista com vários exemplos
+
+>**DICA**: Para pular linha adicione `\n`.
+
 ### Assinatura da função
 
 ```go
@@ -81,5 +87,23 @@ func Printf(format string, a ...interface{}) (n int, err error) {
 	return Fprintf(os.Stdout, format, a...)
 }
 ```
+
+```go
+fmt.Printf("\n Oi")
+fmt.Printf("Como vai ? \n")
+fmt.Printf("Meu nome é %s e tenho %d anos", "Alef", 15)
+```
+
+Resultado esperado
+
+```cmd
+
+Oi
+Como vai ?
+Meu nome é Alef e tenho 15 anos
+
+```
+
+O arquivo [main.go](main.go) contém exemplos funcionais.
 
 O próximo passo é: [As variáveis](/variaveis)
