@@ -98,4 +98,4 @@ if err != nil {
 fmt.Print(nome)
 ```
 
-O arquivo `main.go` contém um exemplo funcional e também mais comentários.
+O arquivo `main.go` contém um exemplo funcional.
