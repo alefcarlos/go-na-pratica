@@ -26,8 +26,8 @@ Parâmetros
 
 Retornos:
 
-* `n` é o número de informações que a função conseguiu ler (cada espaço é uma informação)
-* `err` é a informação do erro, caso occora.
+* `n` é o número de informações que a função conseguiu ler - as informações são separadas/delimitadas por espaço
+* `err` é a informação do erro, caso ocorra.
 
 Essa função lê os inputs e tenta fazer a conversão para os tipo das variáveis desejadas, caso ocorra algum erro o retorno `err` será atribuido.
 
@@ -98,4 +98,4 @@ if err != nil {
 fmt.Print(nome)
 ```
 
-O arquivo `main.go` contém um exemplo funcional.
+O arquivo [main.go](main.go) contém um exemplo funcional.

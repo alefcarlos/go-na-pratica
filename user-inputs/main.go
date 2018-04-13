@@ -72,7 +72,7 @@ func main() {
 
 	Um exemplo é a sequência de números 1 2 3 4 5
 	*/
-	fmt.Println("Digte 3 números se parados por espaço")
+	fmt.Println("Digte 3 números separados por espaço")
 
 	var numero1, numero2, numero3 int
 	n, err := fmt.Scan(&numero1, &numero2, &numero3)
