@@ -32,7 +32,7 @@ func main() {
 	/*Após definirmos nosso reader, temos que utilizar o Método ReadString()
 	para ler um input do usuário
 
-	passamos o argumento '\n', para indicar que o reader deve parar de ler o input quando o usuário teclar enter
+	passamos o argumento '\n', para indicar que o reader deve parar de ler quando o usuário teclar enter
 
 	a função panic() força a parada da aplicação indicando que algo não esperado aconteceu
 
@@ -50,31 +50,8 @@ func main() {
 	var idade int
 	fmt.Println("Quantos anos você tem ?")
 
-	/*Utilizamos a função Scan do pacote fmt para
-	ler um texto e já converter o valor para um tipo de dado desejado
-
-	Devemos passar o parâmetro que irá receber o valor convertido como ponteiro
-
-	Ponteiro é o endereço de memória de uma determinada variável.
-	Para obtermos o ponteiro de uma variável precisamos colcoar o & na frente da mesma
-
-	A função Scan retorna uma tupla, ou seja, vários resultados
-
-	Assinatura da função:
-
-	func Scan(a ...interface{}) (n int, err error) {
-		return Fscan(os.Stdin, a...)
-	}
-
-	Parâmetros:
-	a ponteiros a receberem valores
-
-	Os ... servem para indicar que podem ser passados vários parâmetros para a função
-
-	Retornos:
-
-	n é o número de informações que a função conseguiu ler(cada espaço é uma informação)
-	err é a informação do erro, caso occora.
+	/*Utilizamos a função Scan() do pacote fmt para
+	ler um input do usuário e já convertê-lo para um tipo de dado desejado
 
 	Quando queremos ignorar um retorno, ou seja, essa informação não é relevante, utilizamos o _(underscore)
 
@@ -91,7 +68,7 @@ func main() {
 
 	fmt.Printf("Seu nome é %s e você tem %d anos. \n", nome, idade)
 
-	/*A função Scan pode receber vários parâmetros, cada parâmetro representa uma informação lida.
+	/*A função Scan() pode receber vários parâmetros, cada parâmetro representa uma informação lida.
 
 	Um exemplo é a sequência de números 1 2 3 4 5
 	*/

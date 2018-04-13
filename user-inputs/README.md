@@ -29,7 +29,9 @@ Retornos:
 * `n` é o número de informações que a função conseguiu ler (cada espaço é uma informação)
 * `err` é a informação do erro, caso occora.
 
-Essa função lê os inputs e tenta fazer a conversão para os tipo das variáveis desejadas, caso ocorra algum erro o retorno `err` irá conter as informações.
+Essa função lê os inputs e tenta fazer a conversão para os tipo das variáveis desejadas, caso ocorra algum erro o retorno `err` será atribuido.
+
+> Ponteiro é o endereço de memória de uma determinada variável. Para obtermos o ponteiro de uma variável precisamos colocar o `&` na frente da mesma
 
 ### Exemplo de usos
 
@@ -68,14 +70,14 @@ func (b *Reader) ReadString(delim byte) (string, error) {
 ```
 
 Parâmetros
-* `delim`
+* `delim` informamos qual caractere será o delimitador da leitura de dados, por exemplo `\n`.
 
 Retornos:
 
-* `string` 
-* `error` 
+* `string` o conteúdo que foi lido
+* `error` caso ocorra algum erro durante a leitura, essa informação será atribuida
 
-Como podemos ver o método `ReadString()` é utilizada a partir de uma referência da struct `Reader`, então primeiros devemos criar um `Reader` para poder utilizá-lo:
+Como podemos ver, o método `ReadString()` é utilizado a partir de uma referência da struct `Reader`, então devemos criar um `Reader` para poder utilizá-lo:
 
 ```go
 reader := bufio.NewReader(os.Stdin)
@@ -88,6 +90,12 @@ reader := bufio.NewReader(os.Stdin)
 fmt.Println("Qual seu nome completo ?")
 
 nome, err := reader.ReadString('\n')
+if err != nil {
+	panic(err)
+}
 
+//Exibe o nome digitado
 fmt.Print(nome)
 ```
+
+O arquivo `main.go` contém um exemplo funcional e também mais comentários.
