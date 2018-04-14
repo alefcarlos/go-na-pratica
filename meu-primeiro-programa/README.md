@@ -14,7 +14,24 @@ Geralmente inicializamos um arquivo simples com uma simples instrução: `escrev
 
 ## O que vamos aprender ?
 
-Aprenderemos as funções que escrevem informações no console da aplicação.
+Veremos um anatômia da estrutra de um arquivo Go e também as funções que escrevem informações no console da aplicação.
+
+
+## Arquivo `.go`
+
+Todo arquivo que contém códigos de Golang devem ter a extesão `.go`
+
+```go
+package main // <-- Todo arquivo deve pertencer a um pacote. O arquivo de entrada de um programa deve ser chamado main
+
+//Função de entrada do programa
+func main() {
+  // A sua aplicação começa a ser executada a partir daqui
+}
+
+```
+
+> Para executar uma aplicação go digite no console `go run <nome>.go`
 
 ## `fmt.Print`
 
