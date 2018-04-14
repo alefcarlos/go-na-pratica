@@ -15,7 +15,7 @@ Para cada informação que queremos guardar temos um tipo apropriado. Os tipos m
 * Texto
 * Lógico
 
-Utilizamos o tipo de dado inteiro quando queremos armazenar números sem casas decimais, tanto positivo quanto negativo, e qando queremos utilizar números fracionados utilizamos o tipo de dado real.
+Utilizamos o tipo de dado inteiro quando queremos armazenar números sem casas decimais, tanto positivo quanto negativo, e quando queremos utilizar números fracionados utilizamos o tipo de dado real.
 
 
 Utilizamos o tipo de dado texto quando queremos armazenar uma sequência de alfanuméricos, por exemplo seu nome.
@@ -33,7 +33,7 @@ Quando vamos utilizar variáveis em programas de computadores primeiro temos de 
 
 ## Utilizando variáveis em Go
 
-Antes de utilizarmos uma variável nos temos de declará-la, ou seja, criá-la.
+Antes de utilizarmos uma variável nós temos de declará-la, ou seja, criá-la.
 
 A sintaxe de declaração de uma variável em Go é:
 
@@ -81,13 +81,13 @@ var multiplicacao int = 1 * 1
 fmt.Print(nome);
 ```
 
-Temos outro jeito encurtado para criar e inicilizar uma variável, um jeito curto:
+Temos outro jeito encurtado para criar e inicilizar uma variável:
 
 ```go
 nome := "Maria"
 ```
 
-O símbolo `:=` indica, crie e inicialize o valor da varável nome. 
+O símbolo `:=` indica: crie e inicialize o valor da varável nome. 
 
 > Não precisamos informar o tipo do dado quando estamos utilizando dessa maneira.
 
@@ -95,7 +95,7 @@ O símbolo `:=` indica, crie e inicialize o valor da varável nome.
 
 O escopo de uma variável é sempre onde ela foi declarada.
 
-O que isso significa ? Só podemos utilizar uma variável no bloc em que nós a criamos.
+O que isso significa ? Só podemos utilizar uma variável no bloco em que nós a criamos.
 
 Entenda com o exemplo abaixo:
 
