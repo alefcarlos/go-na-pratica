@@ -148,4 +148,4 @@ Podemos definir `variáveis globais` declarando-as abaixo do package, assim elas
 
 O arquivo [main.go](main.go) contém exemplos funcionais.
 
-O próximo passo é: [Funçõs](/funcoes)
+O próximo passo é: [Funções](/funcoes)
