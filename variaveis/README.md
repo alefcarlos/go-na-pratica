@@ -145,6 +145,8 @@ func funcao(){
 
 Podemos definir `variáveis globais` declarando-as abaixo do package, assim elas ficam disponíveis para todo o pacote.
 
+## Nomeando variáveis
+
 
 O arquivo [main.go](main.go) contém exemplos funcionais.
 
