@@ -147,6 +147,14 @@ Podemos definir `variáveis globais` declarando-as abaixo do package, assim elas
 
 ## Nomeando variáveis
 
+É sempre legal manter um padrão quando criamos uma variável. 
+
+* Use nomes que faça sentido a variável
+* Use palavras curtas
+
+E quando existirem palavras compostas utilize o padrão *lowerCamelCase*, por exemplo dataAniversario.
+
+> *lowerCamelCase:* a primeira letra da primeira palavra sempre minúscula e as seguites com a primeira letra maíscula.
 
 O arquivo [main.go](main.go) contém exemplos funcionais.
 
